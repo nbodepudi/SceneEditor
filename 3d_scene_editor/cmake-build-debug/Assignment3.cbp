@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Assignment3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\ext\;CMake Files\..\ext\glfw\;CMake Files\..\ext\glfw\CMake\;CMake Files\..\ext\glfw\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_border_bin">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_border_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_border_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_border_bin/fast">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_border_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_border_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_view_bin">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_view_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_view_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_view_bin/fast">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_view_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_view_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_blending_bin">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_blending_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_blending_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_blending_bin/fast">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_blending_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_blending_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_depth_bin">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_depth_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_depth_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_depth_bin/fast">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_depth_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_depth_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_properties_bin">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_properties_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_properties_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_properties_bin/fast">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_properties_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_properties_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_positions_bin">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_positions_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_positions_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main_positions_bin/fast">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/main_positions_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 main_positions_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment3_bin">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Assignment3_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment3_bin"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Assignment3_bin/fast">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Assignment3_bin" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 Assignment3_bin/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uninstall">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 uninstall"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="update_mappings">
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 update_mappings"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="glfw/fast">
+				<Option output="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/libglfw3.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-D_GLFW_USE_CONFIG_H"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glm"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src"/>
+					<Add directory="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 glfw/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/cmake-build-debug/glfw/src/glfw_config.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/extra/main_blending.cpp">
+			<Option target="main_blending_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/extra/main_border.cpp">
+			<Option target="main_border_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/extra/main_depth.cpp">
+			<Option target="main_depth_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/extra/main_positions.cpp">
+			<Option target="main_positions_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/extra/main_properties.cpp">
+			<Option target="main_properties_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/extra/main_view.cpp">
+			<Option target="main_view_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src/Helpers.cpp">
+			<Option target="main_border_bin"/>
+			<Option target="main_view_bin"/>
+			<Option target="main_blending_bin"/>
+			<Option target="main_depth_bin"/>
+			<Option target="main_properties_bin"/>
+			<Option target="main_positions_bin"/>
+			<Option target="Assignment3_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src/Helpers.h">
+			<Option target="main_border_bin"/>
+			<Option target="main_view_bin"/>
+			<Option target="main_blending_bin"/>
+			<Option target="main_depth_bin"/>
+			<Option target="main_properties_bin"/>
+			<Option target="main_positions_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/src/main.cpp">
+			<Option target="Assignment3_bin"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/CMake/GenerateMappings.cmake">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include/GLFW/glfw3.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/include/GLFW/glfw3native.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/cocoa_init.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/cocoa_joystick.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/cocoa_joystick.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/cocoa_monitor.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/cocoa_platform.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/cocoa_time.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/cocoa_window.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/egl_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/egl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/init.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/input.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/internal.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/mappings.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/mappings.h.in">
+			<Option target="update_mappings"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/monitor.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/nsgl_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/nsgl_context.m">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/osmesa_context.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/osmesa_context.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/posix_thread.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/posix_thread.h">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/vulkan.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/ext/glfw/src/window.c">
+			<Option target="glfw"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\ext\glfw\"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/CMake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\..\ext\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/CMake/glfw3.pc.in">
+			<Option virtualFolder="CMake Files\..\ext\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/CMake/glfw3Config.cmake.in">
+			<Option virtualFolder="CMake Files\..\ext\glfw\CMake\"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\..\ext\glfw\src\"/>
+		</Unit>
+		<Unit filename="/Users/nagasai/Downloads/course_graphics/base/Assignment_3/../ext/glfw/src/glfw_config.h.in">
+			<Option virtualFolder="CMake Files\..\ext\glfw\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
